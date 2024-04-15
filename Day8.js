@@ -8,7 +8,6 @@
 // };
 
 // Solution - 2
-
 const fact = (num) => {
   let ans = 1;
   while (num > 0) {
