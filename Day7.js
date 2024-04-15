@@ -1,5 +1,5 @@
 // Write a function to find maximum number in an array
-
+// Sperade operator -> ... spreads number in array
 // Solution - 1
 const findMax = (arr) => {
   let maxi = arr.reduce((acc, cur) => {
