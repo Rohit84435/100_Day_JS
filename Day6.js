@@ -1,5 +1,7 @@
 // Write a function to determine whether a given string is a palindrome or not.
 // Use of RegX to remove non-alphabtes with space
+// Join function -> The join() method concatenates all of the elements in an array (or an array-like object),
+//                  separated by commas or a specified separator string, and returns a new string.
 
 const isPalindrome = (str) => {
   str = str.toLowerCase().replace(/\W/g, "");
