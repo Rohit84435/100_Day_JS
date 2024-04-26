@@ -1,4 +1,4 @@
-// Meadian of array
+// Mean of array
 
 const calculateMean = (arr) => {
   ans = arr.reduce((acc, cur) => (acc += cur), 0);
